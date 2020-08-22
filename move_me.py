@@ -16,9 +16,10 @@ class MyHandler(FileSystemEventHandler):
             os.rename(src, new_destination)
 
 # setting-up the folder paths
-folder_to_track = '/home/kmranrg/Documents/MoveMe/TrackingFolder'
-folder_destination = '/home/kmranrg/Documents/MoveMe/DestinationFolder'
+folder_to_track = './TrackingFolder'
+folder_destination = './DestinationFolder'
 
+# NOTE: If you want to use in different folder path, then type the full path address. Example - '/home/kmranrg/Documents/MoveMe/TrackingFile'
 
 event_handler = MyHandler()
 observer = Observer()
