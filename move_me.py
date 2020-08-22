@@ -8,7 +8,6 @@ import json
 
 
 class MyHandler(FileSystemEventHandler):
-    i = 1
     def on_modified(self, event):
         for filename in os.listdir(folder_to_track):
             src = folder_to_track + "/" + filename
