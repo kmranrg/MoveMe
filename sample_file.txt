@@ -1,0 +1,1 @@
+If you put me into the TrackingFoler, I will automatically go into the DestinationFolder.
